@@ -27,10 +27,12 @@ conda activate py_pbrt
 
 **with checkboard floor**
 ```
-python render_assembly.py --ckbd --folder 09993
+cd python
+python rende_video.py --ckbd --folder 09993
 ```
 
 **with white background**
 ```
-python render_assembly.py --folder 09993
+cd python
+python render_video.py --folder 09993
 ```
