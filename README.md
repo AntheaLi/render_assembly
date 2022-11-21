@@ -17,11 +17,11 @@ conda activate py_pbrt
 ## Run
 **add desired shape / obj to asset folder**
 
-*(for folder structure see `cd asset/` or you can simply rename your folder `mv <your folder > motions` )*
+*(for folder structure see `cd asset/`)*
 
-*(for multi part shapes folder structure should be motions/<shape_i>/<frame_i>/<*.npy>)
+*(for multi part shapes folder structure should be `motions/<shape_i>/<frame_i>/<*.npy>`)
 
-*(for multi part shapes folder structure should be meshes/<shape_i>/<frame_i>/<*.obj>)
+*(for multi part shapes folder structure should be `meshes/<shape_i>/<frame_i>/<*.obj>`)
 
 **render video / frame sequences:**
 
