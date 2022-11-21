@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ArHosekSkyModel.c
+ArHosekSkyModel.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ArHosekSkyModel.h
+ArHosekSkyModelData_Spectral.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ArHosekSkyModelData_Spectral.h
+ArHosekSkyModelData_CIEXYZ.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ArHosekSkyModelData_CIEXYZ.h
+ArHosekSkyModelData_RGB.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ArHosekSkyModelData_RGB.h
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ArHosekSkyModel.h
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ArHosekSkyModelData_CIEXYZ.h
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ArHosekSkyModelData_RGB.h
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ArHosekSkyModelData_Spectral.h
+

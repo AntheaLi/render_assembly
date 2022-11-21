@@ -1,0 +1,20 @@
+Film "image" "integer xresolution" [720] "integer yresolution" [720]
+    "string filename" "motions/video/09993/0002.exr"
+
+Sampler "halton" "integer pixelsamples" [128]
+Integrator "path" "integer maxdepth" 6
+
+LookAt -7.000000 -20.000000 15.000000 0.000000 -0.000000 1.000000 0.000000 -0.000000 1.000000
+Camera "perspective" "float fov" [33.000000]
+
+WorldBegin
+
+AttributeBegin
+LightSource "infinite" "string mapname" "/home/yichenl/source/assembly/render_pbrt_xj/asset/texture/lightmap.exr" "color scale" [8.0, 8.0, 8.0]
+AttributeEnd
+
+Include "tri_00000000.pbrt"
+Include "tri_00000001.pbrt"
+Include "tri_00000002.pbrt"
+
+WorldEnd

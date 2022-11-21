@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ptex/src/ptex/PtexInt.h
+stdint.h
+-
+stdint.h
+-
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ptex/src/ptex/PtexVersion.h
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ptex/src/ptex/Ptexture.h
+PtexInt.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ptex/src/ptex/PtexInt.h
+ostream
+-
+PtexVersion.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ptex/src/ptex/PtexVersion.h
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ptex/src/tests/rtest.cpp
+string
+-
+map
+-
+iostream
+-
+Ptexture.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/ptex/src/tests/Ptexture.h
+cstdlib
+-
+cstdio
+-
+

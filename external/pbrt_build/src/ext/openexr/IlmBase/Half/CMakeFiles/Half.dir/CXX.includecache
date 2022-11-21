@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp
+assert.h
+-
+half.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/IlmBase/Half/half.h
+toFloat.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.h
+eLut.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.h
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/IlmBase/Half/half.h
+halfExport.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/IlmBase/Half/halfExport.h
+iostream
+-
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/IlmBase/Half/halfExport.h
+
+src/ext/openexr/IlmBase/Half/eLut.h
+
+src/ext/openexr/IlmBase/Half/toFloat.h
+

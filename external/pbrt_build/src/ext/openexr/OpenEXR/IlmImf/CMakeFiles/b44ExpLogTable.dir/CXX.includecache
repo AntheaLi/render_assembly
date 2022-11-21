@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/IlmBase/Half/half.h
+halfExport.h
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/IlmBase/Half/halfExport.h
+iostream
+-
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/IlmBase/Half/halfExport.h
+
+/home/yichenl/source/assembly/render_pbrt/external/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.cpp
+half.h
+-
+math.h
+-
+iostream
+-
+iomanip
+-
+
