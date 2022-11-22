@@ -1,1 +1,1 @@
-root_path = '/home/yichenl/source/assembly/render_pbrt_xj'
+root_path = '/home/yichenl/source/assembly/render_assembly'

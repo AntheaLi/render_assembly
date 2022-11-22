@@ -179,18 +179,27 @@ if __name__ == '__main__':
             out_file_name =  str(output_folder / ('{:04d}.png'.format(overall_frame_cnt)))
             
             overall_frame_cnt += 1
-
             options = {
                 'file_name': out_file_name,
+                # 'light_map': 'uffizi-large.exr',
                 'light_map':'lightmap.exr',
-                'resolution': (720, 720),
+                # 'resolution': (1200, 1200),
+                # 'resolution': (720, 720),
+                # 'resolution': (240, 240),
+                # 'resolution': (192 * 2, 108 * 2),
+                'resolution': (1280, 720),
+                # 'sample': 8,
                 'sample': 128,
                 'max_depth': 6,
-                'camera_pos': (-7, 20, 15), 
-                'camera_lookat' :(0, 0, 1),
+                # 'camera_pos': (12.5, -12, 12.1), # uffizi
+                # 'camera_pos': (-12+5, 20-5, 12), # lightmap
+                'camera_pos': (-5, 16, 14), # lightmap
+                # 'camera_pos': (10, 10, 12.1),
+                # 'camera_lookat': (0.3+0.1, 0, -0.4+0.1),
+                'camera_lookat' :(0, 0, 0),
+                # 'camera_lookat': (0.15, 0, -0.2),
                 'camera_up': (0, 0, 1),
-                
-                }
+            }
 
             renderer = PbrtRenderer(options)
 
